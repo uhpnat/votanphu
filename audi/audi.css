@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .header{
+    /* height: 60px; */
+    /* width: 100%; */
+  }
+  .list-header{
+    display: block;
+    width: 100vw;
+    /* background-color: rgba(0, 0, 0, 0.611); */
+  }
+  .list-header-1{
+    height: 60px;
+  }
+  .list-header-1>li{
+    margin-top: 20px;
+    float: left;
+  }
+  .list-header-1>li>a{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.73);
+    padding: 21px;
+  }
+.slide>img{
+  background-repeat: none;
+  background-size: cover;
+  width: 100%;
+} 
+.slide{
+  width: 100%;
+  height: 100vh;
+}
+.list-slide{
+  /* margin-top: 40px; */
+  padding-top: 100px;
+}
+.list-slide>span{
+  font-size: 60px;
+  line-height: 60px;
+  color: rgb(0, 0, 0);
+}
+.list-slide>h4{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.btn-slide{
+  margin-top: 70px;
+}
+.btn-slide>a>span{
+  line-height: 24px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.btn-slide>a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  margin-right: 30px;
+}
+.container--audi{
+  margin-top: 100px;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.right-slide{
+  padding: 20px;
+}
+.right-slide h2{
+  font-size: 46px;
+  line-height: 60px;
+  margin: 100px 0 0 0;
+}
+.phan2-audi img{
+  transition: 0.8s;
+
+  border-radius: 1px;
+  width: 500px;
+  /* padding: ; */
+}
+.right-slide p{
+  font-size: 14px;
+  line-height: 14px;
+  margin: 30px 0px  ;
+}
+.btn-1{
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 24px;
+  padding: 16px 32px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.btn-1 span{
+  font-size: 16px;
+  line-height: 24px;
+
+}
+/* phan cuoi */
+.phacuoi h3{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 40px;
+}
+.phancuoi-item{
+  padding: 10px;
+}
+.phancuoi-item img{
+  width: 100%;
+  height: 250px;
+}
+.phancuoi-item p{
+  line-height: 24px;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+footer{
+  height: 60vh;
+}
+.footer h1{
+padding: 80px 0px;
+}
+.footer p{
+  /* border: 1px solid white; */
+  font-size: 16px;
+  padding: 10px 0px;
+}
+.ketthuc h2 {
+  float: left;
+  padding: 30px 40px 0px 0px;
+}
+.iconfooter{
+  margin: 100px;
+}
+/* hover */
+.btn-slide>a:hover{
+  background-color: rgba(0, 0, 0, 0.529);
+}
+.btn-1:hover{
+  background-color: rgba(0, 0, 0, 0.804);
+}
+.phan2-audi img:hover{
+  width: 100%;
+  border-radius:20px ;
+}
+.list-header-1 a{
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.list-header-1 a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(255, 157, 0);
+}
